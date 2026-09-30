@@ -1,0 +1,4 @@
+{
+  "ahld_to_fidel": {"samples": 34820, "cer": 0.4938, "wer": 0.8571},
+  "fidel_to_ahld": {"samples": 23911, "cer": 0.4118, "wer": 0.7546}
+}

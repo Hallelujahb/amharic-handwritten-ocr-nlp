@@ -1,0 +1,8 @@
+experiment,train,eval_set,eval_split,samples,cer,wer
+baseline,ahld,ahld,validation,3046,0.0462,0.1807
+baseline,fidel,fidel,validation,3251,0.1647,0.4107
+cross_dataset,ahld,fidel,all,34820,0.4938,0.8571
+cross_dataset,fidel,ahld,all,23911,0.4118,0.7546
+finetune,ahld+fidel,fidel,validation,3458,0.2472,0.6189
+finetune,ahld+fidel,fidel,test,3507,0.2797,0.6698
+finetune,ahld+fidel,ahld,test,2990,0.2369,0.4457

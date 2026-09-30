@@ -1,0 +1,20 @@
+{
+  "dataset": "misiker/AHLD-29k",
+  "model": "CRNN",
+  "image_height": 64,
+  "image_width": 512,
+  "batch_size": 16,
+  "max_epochs": 20,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "scheduler": "ReduceLROnPlateau",
+  "scheduler_metric": "CER",
+  "patience": 4,
+  "seed": 42,
+  "device": "cpu",
+  "vocabulary_size": 311,
+  "train_samples": 21326,
+  "validation_samples": 2585,
+  "checkpoint": "/content/drive/MyDrive/amharic_htr_ahld29k/ocr/research/crnn/extended/best_checkpoint.pt"
+}

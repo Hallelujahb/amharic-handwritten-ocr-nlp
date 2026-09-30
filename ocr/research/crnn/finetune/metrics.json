@@ -1,0 +1,16 @@
+{
+  "best_epoch": 10,
+  "best_fidel_validation_cer": 0.24724814103804238,
+  "fidel_test": {
+    "samples": 3507,
+    "cer": 0.2796542027840394,
+    "wer": 0.6698243934393188,
+    "exact_accuracy": 0.00142571998859424
+  },
+  "ahld_test": {
+    "samples": 2990,
+    "cer": 0.23685550749865078,
+    "wer": 0.4457117130637053,
+    "exact_accuracy": 0.005351170568561873
+  }
+}

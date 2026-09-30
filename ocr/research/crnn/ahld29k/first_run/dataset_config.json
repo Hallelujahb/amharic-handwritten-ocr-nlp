@@ -1,0 +1,17 @@
+{
+  "dataset": "misiker/AHLD-29k",
+  "total_samples": 23911,
+  "train_samples": 21326,
+  "validation_samples": 2585,
+  "train_writers": 129,
+  "validation_writers": 15,
+  "seed": 42,
+  "image_height": 64,
+  "image_width": 512,
+  "batch_size": 16,
+  "vocabulary_size": 311,
+  "split_type": "writer-disjoint 90/10",
+  "train_split": "/content/drive/MyDrive/amharic_htr_ahld29k/ocr/shared/data/train_split.csv",
+  "validation_split": "/content/drive/MyDrive/amharic_htr_ahld29k/ocr/shared/data/validation_split.csv",
+  "vocabulary": "/content/drive/MyDrive/amharic_htr_ahld29k/ocr/shared/data/vocabulary.json"
+}

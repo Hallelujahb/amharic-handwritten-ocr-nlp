@@ -1,0 +1,22 @@
+{
+  "model": "CRNN",
+  "dataset": "AHL-D 29K",
+  "image_height": 64,
+  "image_width": 512,
+  "vocabulary_size": 311,
+  "num_classes": 312,
+  "batch_size": 16,
+  "max_epochs": 20,
+  "learning_rate": 0.001,
+  "patience": 4,
+  "sample_predictions_per_epoch": 3,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "loss": "CTCLoss",
+  "seed": 42,
+  "train_samples": 23911,
+  "validation_samples": 3046,
+  "test_samples": 2990,
+  "vocabulary_path": "/content/drive/MyDrive/amharic_htr_research/ocr/shared/data/ahld29k_vocabulary.json",
+  "stage_root": "/content/drive/MyDrive/amharic_htr_research/ocr/research/crnn/ahld29k"
+}

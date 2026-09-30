@@ -1,0 +1,6 @@
+{
+  "dataset": "misiker/AHLD-29k",
+  "device": "cpu",
+  "seed": 42,
+  "last_setup_time": "2026-09-26 14:59:32"
+}
